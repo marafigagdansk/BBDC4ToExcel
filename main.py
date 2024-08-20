@@ -2,7 +2,7 @@ import yfinance as yf
 from openpyxl import Workbook, load_workbook
 
 SYMBOL = 'BBDC4.SA'  
-file_path = '"C:\\Users\\Pc\\Documents\\Teste\\media ponderada B3.xlsx"'
+file_path = 'C:\\Users\\Pc\\Documents\\Teste\\media ponderada B3.xlsx'
 
 # Baixa os dados
 stock = yf.Ticker(SYMBOL)
